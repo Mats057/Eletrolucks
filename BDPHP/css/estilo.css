@@ -1,0 +1,95 @@
+body {
+    background-color: #2b2726;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #0a516d;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+}
+
+#sum {
+    color: white;
+    padding: 1px;
+    font-family: Verdana, sans-serif;
+}
+
+#Itens {
+    text-align: center;
+}
+
+#Clientes {
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #ca3a3a;
+}
+
+header a:hover {
+    color: rgb(92, 18, 18);
+}
+
+header li {
+    font-size: 20px;
+}
+
+#pag {
+    color: rgb(167, 226, 255);
+}
+
+.foto {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    height: 267.75px;
+}
+
+.row {
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ca3a3a;
+    border-radius: 5px;
+}
+
+.col {
+    background-color: rgb(36, 36, 36);
+    width: 20%;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 3%;
+}
+
+.desc {
+    height: 80px;
+}
+
+.col1 {
+    width: 50%;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 100px;
+}
+
+.sobre {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin: 100px;
+}
+
+.titulo2 {
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+}

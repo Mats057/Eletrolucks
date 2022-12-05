@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>Eletrolucks</title>
+</head>
+
+<body>
+    <header>
+        <div id="sum">
+            <h1 class="titulo"> Eletrolucks, a melhor loja de eletrônicos do Brasil!</h1>
+            <li style="list-style: none;"><a href="../index.html">Inicial</a></li>
+            <li style="list-style: none;">Cadastro - <a id="pag">Itens</a> - <a href="./clientes.html">Clientes</a></li>
+            <li style="list-style: none;"><a href="../Bd/bd.php">Consulta</a></li>
+        </div>
+        <div id="itens">
+            <h1>⠀Cadastro de Itens</h1>
+            <form type="text" name="text" method="POST" action="../php/salvaritens.php">
+                <p> <label id="pergunta">ID:</label>
+                    <input type="text" name="id" placeholder="Digite o ID do produto" required></p>
+                <p> <label id="pergunta">Modelo:</label>
+                    <input type="text" name="modelo" placeholder="Digite o modelo" required></p>
+                <p> <label id="pergunta">Marca:</label>
+                    <input type="text" name="marca" placeholder="Digite a marca do produto" required></p>
+                <p> <label id="pergunta">Quantidade:</label>
+                    <input type="text" name="quantidade" placeholder="Digite a quantidade" required></p>
+                <p> <label id="pergunta">Valor:</label>
+                    <input type="text" name="valor" placeholder="Digite o valor do produto" required></p>
+                <button id="confirm" type="submit">Cadastrar</button>
+                <button id="reset" type="reset">Limpar</button>
+            </form>
+        </div>
+    </header>
+
+</body>
+
+</html>
